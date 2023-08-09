@@ -13,13 +13,13 @@ exports.id = "pages/news";
 exports.ids = ["pages/news"];
 exports.modules = {
 
-/***/ "./pages/news.js":
-/*!***********************!*\
-  !*** ./pages/news.js ***!
-  \***********************/
+/***/ "./pages/news/index.js":
+/*!*****************************!*\
+  !*** ./pages/news/index.js ***!
+  \*****************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction NewsPage() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n            children: \"News Page\"\n        }, void 0, false, {\n            fileName: \"/Users/hashi/Code/Play-ground-pvt/React_course/Nextjs/Next_Js_App/pages/news.js\",\n            lineNumber: 4,\n            columnNumber: 9\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/hashi/Code/Play-ground-pvt/React_course/Nextjs/Next_Js_App/pages/news.js\",\n        lineNumber: 3,\n        columnNumber: 7\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NewsPage);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9uZXdzLmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7OztBQUFBO0FBQUEsU0FBU0EsUUFBUSxHQUFHO0lBQ2hCLHFCQUNFLDhEQUFDQyxLQUFHO2tCQUNGLDRFQUFDQyxJQUFFO3NCQUFDLFdBQVM7Ozs7O2dCQUFLOzs7OztZQUNkLENBQ047QUFDSixDQUFDO0FBRUQsaUVBQWVGLFFBQVEsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL25leHRqcy1jb3Vyc2UvLi9wYWdlcy9uZXdzLmpzP2IyOGUiXSwic291cmNlc0NvbnRlbnQiOlsiZnVuY3Rpb24gTmV3c1BhZ2UoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxkaXY+XG4gICAgICAgIDxoMT5OZXdzIFBhZ2U8L2gxPlxuICAgICAgPC9kaXY+XG4gICAgKTtcbiAgfVxuICBcbiAgZXhwb3J0IGRlZmF1bHQgTmV3c1BhZ2U7XG4gICJdLCJuYW1lcyI6WyJOZXdzUGFnZSIsImRpdiIsImgxIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/news.js\n");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction NewsPage() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n            children: \"News Page\"\n        }, void 0, false, {\n            fileName: \"/Users/hashi/Code/Play-ground-pvt/React_course/Nextjs/Next_Js_App/pages/news/index.js\",\n            lineNumber: 4,\n            columnNumber: 9\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/hashi/Code/Play-ground-pvt/React_course/Nextjs/Next_Js_App/pages/news/index.js\",\n        lineNumber: 3,\n        columnNumber: 7\n    }, this);\n}\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (NewsPage);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9wYWdlcy9uZXdzL2luZGV4LmpzLmpzIiwibWFwcGluZ3MiOiI7Ozs7OztBQUFBO0FBQUEsU0FBU0EsUUFBUSxHQUFHO0lBQ2hCLHFCQUNFLDhEQUFDQyxLQUFHO2tCQUNGLDRFQUFDQyxJQUFFO3NCQUFDLFdBQVM7Ozs7O2dCQUFLOzs7OztZQUNkLENBQ047QUFDSixDQUFDO0FBRUQsaUVBQWVGLFFBQVEsRUFBQyIsInNvdXJjZXMiOlsid2VicGFjazovL25leHRqcy1jb3Vyc2UvLi9wYWdlcy9uZXdzL2luZGV4LmpzPzdhYTIiXSwic291cmNlc0NvbnRlbnQiOlsiZnVuY3Rpb24gTmV3c1BhZ2UoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxkaXY+XG4gICAgICAgIDxoMT5OZXdzIFBhZ2U8L2gxPlxuICAgICAgPC9kaXY+XG4gICAgKTtcbiAgfVxuICBcbiAgZXhwb3J0IGRlZmF1bHQgTmV3c1BhZ2U7XG4gICJdLCJuYW1lcyI6WyJOZXdzUGFnZSIsImRpdiIsImgxIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./pages/news/index.js\n");
 
 /***/ }),
 
@@ -40,7 +40,7 @@ module.exports = require("react/jsx-dev-runtime");
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = (__webpack_exec__("./pages/news.js"));
+var __webpack_exports__ = (__webpack_exec__("./pages/news/index.js"));
 module.exports = __webpack_exports__;
 
 })();
